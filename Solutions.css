@@ -1,0 +1,164 @@
+.hero-heading{
+    font-size: 100px;
+    font-weight: 500;
+}
+.hero-paragraph{
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.solutions-paragraphs{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    
+}
+
+.solutions-heading{
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.read_more_btn{
+    font-size: 20px;
+}
+
+.row{
+    margin: auto !important;
+    padding: auto !important;
+}
+.last-solutions_container{
+    margin: 80px auto;
+    width: 85%;
+}
+  .solutions_container{
+    background-color: #E3E3E3;
+   margin: 80px auto;
+   width: 85%;
+
+  }
+   .inner-padding{
+    padding: 100px;
+   }
+
+  .row-bg-color{
+    background-color: #E3E3E3;
+  }
+  
+.right-box-cont{
+    padding: 30px 80px;
+    border-bottom-right-radius: 24px;
+    border-top-right-radius: 24px;
+}
+
+.left-box-cont{
+    padding: 30px 80px;
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
+}
+.solutions-parag{
+    font-size: 40px;
+    color: #fff;
+}
+
+
+.align-self-end{
+    display: flex;
+    align-items: flex-end;
+    align-items: center;
+    
+}
+
+.solutions-btn  {
+    background-color: #972c2c;
+    padding: 8px 24px;
+    border: #972c2c;
+}
+.casestudy-btn{
+  background-color: #972c2c;
+  padding: 8px 24px;
+  border: #972c2c;
+}
+
+.contact-btn {
+  background-color: #972c2c;
+  padding: 8px 24px;
+  border: #972c2c;
+}
+
+.filters-btn {
+  background: #ffffff ;
+  padding: 8px 24px;
+  border-color: #000;
+}
+
+.no-padding{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.border-bottom{
+    border-bottom: 2px solid #972c2c;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+ 
+.accordion_container{
+    background-color: #E3E3E3;   
+    border-top: 2px solid #972c2c;
+}
+  .accordion summary {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+   
+  }
+  
+  .accordion-content {
+    padding: 10px;    
+    border-top: none;
+    display: none;
+  
+  }
+  
+  .accordion-content p {
+    margin: 0;
+  }
+  
+  .accordion[open] summary {
+    border-bottom-left-radius: 0;
+
+}
+  
+  .accordion[open] .accordion-content {
+    display: block;
+  }
+  
+  .accordion-icon {
+   font-size: 24px;
+    font-weight: bolder;
+    color: black;
+  }
+  
+ 
+  .accordion[open] .accordion-icon.open-icon {
+    transform: rotate(180deg);
+  }
+
+
+   /* Contact us css */
+  .form-divider{
+    border-right: 2px solid #000;
+    height: 500px;
+  
+  }
+  .card{
+    border-radius: 0 !important;
+  }
+  
